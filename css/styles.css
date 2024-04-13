@@ -13,3 +13,8 @@ a{
 button{
     cursor: pointer;
 }
+.main-page{
+    width: 1440px;
+    height: 3300px;
+    background: #fff;
+}
