@@ -1,5 +1,5 @@
 body {
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
 }
@@ -15,6 +15,7 @@ button {
 }
 /* common */
 .section-title {
+  text-transform: capitalize;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -76,6 +77,10 @@ button {
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
+}
+.hero-cta:hover,
+.hero-cta:focus {
+  background: #404bbf;
 }
 /* benefit */
 .benefit-title {
